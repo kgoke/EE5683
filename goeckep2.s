@@ -33,9 +33,9 @@ main:
     sd      r24,(r21)       ; to screen
     
     slt     r7,r2,r5        ; check input greater than 2
-    bne     r7,r0,onenum       ; if < 2 got to onenum
+    bne     r7,r0,onenum    ; if < 2 got to onenum
 
-    daddi   r24,r0,1       ; set data to unsigned int to be output
+    daddi   r24,r0,1        ; set data to unsigned int to be output
     sd      r3,(r22)        ; storing content of r3 into data reg
     sd      r24,(r21)       ; to screen
     sd      r4,(r22)        ; stroring content of r4 into data reg
